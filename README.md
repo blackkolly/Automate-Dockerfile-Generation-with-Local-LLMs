@@ -1,11 +1,9 @@
 # Automate-Dockerfile-Generation-with-Local-LLMs
 
-```markdown
+
 # AI Dockerfile Generator
 
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![AI](https://img.shields.io/badge/AI-FF6F00.svg?style=for-the-badge&logo=openai&logoColor=white)
+
 
 Generate optimized Dockerfiles using either local (Ollama) or cloud (Google AI Studio) AI models.
 
@@ -24,10 +22,10 @@ Generate optimized Dockerfiles using either local (Ollama) or cloud (Google AI S
 
 ## Features
 
-- **Automatic Detection**: Identifies project dependencies
-- **Best Practices**: Follows Docker security and optimization guidelines
-- **Multi-Language**: Supports 6+ programming languages
-- **Dual Mode**: Choose between local or cloud AI processing
+- Automatic Detection: Identifies project dependencies
+- Best Practices: Follows Docker security and optimization guidelines
+- Multi-Language: Supports 6+ programming languages
+- Dual Mode: Choose between local or cloud AI processing
 
 ## Prerequisites
 
