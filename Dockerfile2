@@ -1,0 +1,20 @@
+```Dockerfile
+# Use an official lightweight Python runtime as a parent image (Alpine for smaller footprint)
+FROM python:3.9-alpine
+
+# Set the working directory in the container to /app
+WORKDIR /app
+
+# Copy only the requirements file first and install dependencies if any were added later on, this is optional since no specific dependency installation was needed as per requirement 2 but included for completeness of best practices.
+COPY ./requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy only the necessary files (e.g., just your application code) to the container's working directory
+COPY main.py /app/main.py
+
+# Run python app.py when the container launches, using CMD instruction for simplicity and clarity in this example which can be replaced with ENTRYPOINT if needed (e.g., entrypoint scripts)
+CMD ["python", "./main.py"]
+
+# Expose port 5000 to allow access from outside the container, assuming it's a web application that listens on this port; adjust as necessary for your app type and needs
+EXPOSE 5000
+```
