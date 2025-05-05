@@ -1,9 +1,5 @@
-# Automate-Dockerfile-Generation-with-Local-LLMs
-
 
 # AI Dockerfile Generator
-
-
 
 Generate optimized Dockerfiles using either local (Ollama) or cloud (Google AI Studio) AI models.
 
