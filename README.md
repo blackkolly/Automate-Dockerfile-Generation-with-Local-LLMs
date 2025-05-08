@@ -113,11 +113,10 @@ Generate optimized Dockerfiles using either local (Ollama) or cloud (Google AI S
 Edit `PROMPT_TEMPLATE` in either script to modify:
 
 ```python
-PROMPT_TEMPLATE = """
+PROMPT_TEMPLATE = "
 Generate Dockerfile for {language}...
 # Add your custom requirements here
-"""
-```
+""
 
 ## Troubleshooting
 
