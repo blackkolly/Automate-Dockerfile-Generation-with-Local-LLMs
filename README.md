@@ -2,7 +2,7 @@
 # AI Dockerfile Generator
 
 Generate optimized Dockerfiles using either local (Ollama) or cloud (Google AI Studio) AI models.
-It comprises 
+It comprises table of content
 
 ## Table of Contents
 - [Features](#features)
